@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rathinchopra.assignmentreminder_chopra_islam.settings.SettingsActivity">
+
+    <TextView
+        android:id="@+id/txt_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_settings_black_24dp"
+        android:paddingStart="130dp"
+        android:text="@string/settings"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+    <TextView
+        android:id="@+id/txt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_account_circle_black_24dp"
+        android:text="@string/user_info"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:id="@+id/txt_userInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:id="@+id/txt_notification"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:drawableStart="@drawable/ic_notifications_black_24dp"
+        android:drawablePadding="5dp"
+        android:text="@string/notification"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <Switch
+        android:id="@+id/switch_notification"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/notifications"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <Switch
+        android:id="@+id/switch_vibrate"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:text="@string/vibrate_mode"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+</LinearLayout>

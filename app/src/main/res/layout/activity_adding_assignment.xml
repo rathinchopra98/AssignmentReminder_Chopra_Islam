@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/customborder"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/txt_assignmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Assignment Title" />
+
+        <EditText
+            android:id="@+id/edtTxt_assignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txt_dueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Due Date" />
+
+        <EditText
+            android:id="@+id/edtTxt_dueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:ems="10"
+            android:hint="@string/double_click_to_get_date_picker"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/txt_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Notification Date" />
+
+        <DatePicker
+            android:id="@+id/picker"
+            android:layout_width="match_parent"
+            android:layout_height="266dp" />
+
+        <Button
+            android:id="@+id/btn_addAssignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Assignment" />
+
+</LinearLayout>
+
